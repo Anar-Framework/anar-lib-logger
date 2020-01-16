@@ -1,15 +1,29 @@
+### Loggin Utility Library of Anar Framework
 
-### Logging Library
+#### Usage Guide
+
+```
+		<dependency>
+	               <groupId>af.gov.anar.lib.logger</groupId>
+	                <artifactId>anar-lib-logger</artifactId>
+                        <version>${project.version}</version>
+		</dependency>
+
+```
 
 #### Features
 
 - Console Log Appender
 - File Log Appender
 - File Rolling Appender 
-- Logging Exception Management 
 - Logging Utility Functions
 - Session Logging 
 - Logging Factory 
 - Different Logging Level
 - Logging File Parser
-- And more
+
+
+#### Documentation
+
+Refer to this repository **Wiki** section.
+https://github.com/Anar-Framework/anar-lib-logger/wiki
