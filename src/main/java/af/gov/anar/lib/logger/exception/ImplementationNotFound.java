@@ -1,6 +1,7 @@
-package af.gov.anar.lib.logger.exception.logger;
+package af.gov.anar.lib.logger.exception;
 
-import af.gov.anar.lib.logger.exception.BaseUncheckedException;
+
+import af.gov.anar.lang.infrastructure.exception.common.BaseUncheckedException;
 
 public class ImplementationNotFound extends BaseUncheckedException {
 

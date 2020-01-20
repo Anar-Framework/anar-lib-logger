@@ -8,7 +8,7 @@ import af.gov.anar.lib.logger.util.LogExeptionCodeConstant;
 import af.gov.anar.lib.logger.util.LogLevel;
 import af.gov.anar.lib.logger.util.LoggerMethod;
 import af.gov.anar.lib.logger.LoggerImpl;
-import af.gov.anar.lib.logger.exception.logger.ImplementationNotFound;
+import af.gov.anar.lib.logger.exception.ImplementationNotFound;
 import af.gov.anar.lib.logger.Logger;
 import af.gov.anar.lib.logger.util.LoggerUtils;
 

@@ -3,6 +3,9 @@ package af.gov.anar.lib.logger;
 import java.util.HashMap;
 import java.util.Map;
 
+import af.gov.anar.lang.infrastructure.exception.common.IllegalArgumentException;
+import af.gov.anar.lang.infrastructure.exception.common.IllegalStateException;
+import af.gov.anar.lang.infrastructure.exception.common.PatternSyntaxException;
 import af.gov.anar.lib.logger.appender.ConsoleAppender;
 import af.gov.anar.lib.logger.appender.FileAppender;
 import af.gov.anar.lib.logger.appender.RollingFileAppender;
@@ -10,11 +13,8 @@ import af.gov.anar.lib.logger.util.ConfigurationDefault;
 import af.gov.anar.lib.logger.util.LogExeptionCodeConstant;
 import af.gov.anar.lib.logger.util.LogLevel;
 import af.gov.anar.lib.logger.exception.ClassNameNotFoundException;
-import af.gov.anar.lib.logger.exception.IllegalArgumentException;
-import af.gov.anar.lib.logger.exception.IllegalStateException;
-import af.gov.anar.lib.logger.exception.PatternSyntaxException;
-import af.gov.anar.lib.logger.exception.logger.EmptyPatternException;
-import af.gov.anar.lib.logger.exception.logger.FileNameNotProvided;
+import af.gov.anar.lib.logger.exception.EmptyPatternException;
+import af.gov.anar.lib.logger.exception.FileNameNotProvided;
 import org.slf4j.LoggerFactory;
 
 import ch.qos.logback.classic.Level;

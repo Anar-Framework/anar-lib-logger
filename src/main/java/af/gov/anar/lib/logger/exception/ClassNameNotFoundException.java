@@ -1,8 +1,9 @@
 package af.gov.anar.lib.logger.exception;
 
+import af.gov.anar.lang.infrastructure.exception.common.BaseUncheckedException;
+
 /**
  * {@link Exception} to be thrown when a class name is not found
-
  */
 public class ClassNameNotFoundException extends BaseUncheckedException {
 

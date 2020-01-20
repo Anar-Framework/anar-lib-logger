@@ -1,8 +1,9 @@
-package af.gov.anar.lib.logger.exception.logger;
+package af.gov.anar.lib.logger.exception;
 
-import af.gov.anar.lib.logger.exception.BaseUncheckedException;
 
-public class EmptyPatternException extends BaseUncheckedException {
+import af.gov.anar.lang.infrastructure.exception.common.BaseUncheckedException;
+
+public class FileNameNotProvided extends BaseUncheckedException {
 
     /**
      * Unique id for serialization
@@ -13,7 +14,7 @@ public class EmptyPatternException extends BaseUncheckedException {
      * @param errorCode    unique exception code
      * @param errorMessage exception message
      */
-    public EmptyPatternException(String errorCode, String errorMessage) {
+    public FileNameNotProvided(String errorCode, String errorMessage) {
         super(errorCode, errorMessage);
     }
 

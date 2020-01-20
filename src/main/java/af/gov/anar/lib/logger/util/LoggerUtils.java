@@ -6,7 +6,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import af.gov.anar.lib.logger.exception.logger.XMLConfigurationParseException;
+import af.gov.anar.lib.logger.exception.XMLConfigurationParseException;
 
 /**
  * This is utility class for Logger
