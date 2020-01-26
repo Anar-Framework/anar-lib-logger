@@ -75,6 +75,12 @@
 			<version>${project.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>af.gov.anar.lib</groupId>
+			<artifactId>anar-lib-json</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
 		<!-- logback-classic -->
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
