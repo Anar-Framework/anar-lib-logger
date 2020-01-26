@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class LoggingAspect {
 
-    @Before("@annotation(af.gov.anar.assetmanagement.infrastructure.logger.Loggable)")
+    @Before("@annotation(af.gov.anar.lib.logger.annotation.Loggable)")
     public void annotatedBeforeLoggingAdvice(JoinPoint joinPoint) throws Throwable{
         log.info("[" + joinPoint.getSignature().getDeclaringTypeName() + "]" +
                 "[" + MethodSignature.class.cast(joinPoint.getSignature()).getMethod().getName() + "] " +
