@@ -1,7 +1,7 @@
 package af.gov.anar.lib.logger.exception;
 
 
-import af.gov.anar.lang.infrastructure.exception.common.BaseUncheckedException;
+import af.gov.anar.core.infrastructure.exception.common.BaseUncheckedException;
 
 public class FileNameNotProvided extends BaseUncheckedException {
 
