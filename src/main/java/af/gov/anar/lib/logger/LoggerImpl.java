@@ -31,12 +31,12 @@ import ch.qos.logback.core.util.FileSize;
  */
 public class LoggerImpl implements Logger {
 
-    private static Map<String, Appender<ILoggingEvent>> rollingFileAppenders = new HashMap<>();
-    private static Map<String, Appender<ILoggingEvent>> fileAppenders = new HashMap<>();
+    private static final Map<String, Appender<ILoggingEvent>> rollingFileAppenders = new HashMap<>();
+    private static final Map<String, Appender<ILoggingEvent>> fileAppenders = new HashMap<>();
     /**
      * Logger Instance per Class
      */
-    private ch.qos.logback.classic.Logger logger;
+    private final ch.qos.logback.classic.Logger logger;
 
     /**
      * Display pattern of logs

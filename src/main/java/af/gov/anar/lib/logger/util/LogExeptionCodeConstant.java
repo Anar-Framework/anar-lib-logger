@@ -103,7 +103,7 @@ public enum LogExeptionCodeConstant {
      *
      * @param value set {@link Enum} value
      */
-    private LogExeptionCodeConstant(final String value) {
+    LogExeptionCodeConstant(final String value) {
         this.value = value;
     }
 

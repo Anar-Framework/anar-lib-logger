@@ -38,7 +38,7 @@ public enum LogLevel {
      *
      * @param level set {@link Enum} level
      */
-    private LogLevel(final String level) {
+    LogLevel(final String level) {
         this.level = level;
     }
 
